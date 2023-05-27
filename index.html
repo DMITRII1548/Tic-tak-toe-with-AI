@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>dsf</title>
+	<link rel="stylesheet" type="text/css" href="./style.css">
+	<script src="./game.js"></script>
+</head>
+<body>
+	<div>
+		<h1>Крестики нолики</h1>
+	</div>
+	<div class="fields">
+		<div class="field-0" onclick="player.fillField('.field-0', 0)"></div>
+		<div class="field-1" onclick="player.fillField('.field-1', 1)"></div>
+		<div class="field-2" onclick="player.fillField('.field-2', 2)"></div>
+		<div class="field-3" onclick="player.fillField('.field-3', 3)"></div>
+		<div class="field-4" onclick="player.fillField('.field-4', 4)"></div>
+		<div class="field-5" onclick="player.fillField('.field-5', 5)"></div>
+		<div class="field-6" onclick="player.fillField('.field-6', 6)"></div>
+		<div class="field-7" onclick="player.fillField('.field-7', 7)"></div>
+		<div class="field-8" onclick="player.fillField('.field-8', 8)"></div>
+	</div>
+	<div>
+		<button onclick="game.restart(player)" class="button-restart">Сбросить</button>
+	<div>
+</body>
+</html>
